@@ -1,0 +1,83 @@
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    background-color: #8B0000;
+    padding: 0em;
+    border: 0px;
+}
+div.header h1 {
+    position: absolute;
+    top: 20px;
+}
+div.header a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar {
+    position: absolute;
+    width: 10em;
+    top: 150px;
+    left: 8px;
+    padding: 0em;
+    
+    background-color: #8B0000;
+    height: 100%;
+}
+
+div.nav_select {
+    background-color: #8B0000;;
+    border: 6px solid #8B0000;;
+    height: 1em;
+}
+
+div.nav_selected {
+    background-color: white;
+    border: 5px solid white;
+    height: 1em;
+}
+
+div.nav_select:hover {
+    background-color: white;
+    border: 5px solid white;
+    height: 1em;
+}
+
+a.nav_click {
+    cursor: pointer;
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+.subject {
+    margin-top: 160px;
+    margin-left:11em;
+    position: absolute;
+    overflow: auto;
+    float: left;
+}
+
+body {
+    font-family: Ubuntu, arial, times, roman, serif;
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
